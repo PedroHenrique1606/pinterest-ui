@@ -3,7 +3,7 @@ import { theme } from '@/theme'
 export default function Home(){
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Home</Text>
+            <Text style={styles.text}>Seja bem vindo ao nosso app 😊</Text>
         </View>
     )
 }
