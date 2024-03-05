@@ -6,7 +6,7 @@ import { FontAwesome } from "@expo/vector-icons";
 
 export const Menu = forwardRef<BottomSheet, MenuProps> (({ onClose }, ref) => {
     return(
-        <BottomSheet ref={ref} index={1} snapPoints={[0.01, 230]}>
+        <BottomSheet ref={ref} index={0} snapPoints={[0.01, 230]}>
             <View>
                 <FontAwesome name="close" size={24} onPress={onClose}/>
                 <Text>Comece a criar agora</Text>
